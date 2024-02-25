@@ -1,0 +1,245 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+nav ul .image div h3 a:hover {
+  color: darksalmon;
+}
+/* @media (max-width: 768px) { */
+/* .categories { */
+/* flex-direction: column; Stack elements vertically on small screens */
+/* } */
+/* } */
+/* nav ul .logo .logo-title image {
+  width: 100px;
+  height: 100px;
+} */
+nav ul li input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  /* border: 1px solid black; */
+  background-color: lightblue;
+  color: black;
+  /* margin: 5px; */
+}
+nav ul .sea div {
+  display: flex;
+}
+nav ul .sea div i {
+  background-color: lightblue;
+  /* margin-top:px; */
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+
+  /* color: lightgrey; */
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+}
+.electronics {
+  display: flex;
+  overflow-x: auto;
+  justify-content: space-between;
+  /* justify-content: center;
+  align-items: center; */
+}
+.electronics .best {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  /* padding: 55px; */
+  padding: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.electronics .items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  padding: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.electronics img {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+.bar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  /* border: 1px solid wheat; */
+  margin: auto;
+}
+ul li :first-child {
+  display: block;
+}
+
+/* .logo img {
+  display: block;
+} */
+.nav img {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+/* .sea {
+  background-color: lightblue;
+} */
+.image {
+  display: inline;
+}
+.images {
+  display: inline;
+  margin-bottom: 50px;
+}
+.images img {
+  width: 490px;
+  height: 300px;
+}
+.part {
+  background-color: blue;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part {
+  margin-bottom: 100px;
+  margin-left: 50px;
+  height: 500px;
+  width: 300px;
+}
+.part img {
+  width: 250px;
+  height: 250px;
+  padding-bottom: 20px;
+}
+.part p {
+  color: white;
+  font-size: 20px;
+  margin-top: 80px;
+}
+.part2 button {
+  background-color: orange;
+  color: white;
+  width: 400px;
+  height: 50px;
+  margin-left: 50px;
+}
+.part2 {
+  /* background-color: azure; */
+  width: 500px;
+  height: 500px;
+}
+/* .part2 input {
+  margin-top: 80px;
+  margin-left: 50px;
+  width: 300px;
+} */
+.part2 input {
+  outline: none;
+  border: 0;
+  width: 300px;
+  border-bottom: 1px solid black;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.part2 p {
+  margin-left: 50px;
+  /* color: white; */
+}
+.part2 footer {
+  margin-top: 200px;
+}
+.part2 button {
+  cursor: pointer;
+}
+.head {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  box-sizing: border-box;
+}
+.cart {
+  justify-content: center;
+  text-align: center;
+}
+.cart button {
+  background-color: orangered;
+  color: white;
+  width: 150px;
+  height: 30px;
+}
+.cart img {
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+footer ul li :first-child {
+  color: gray;
+}
+.vl {
+  border-left: 1px solid gray;
+  height: 180px;
+  margin-left: 30px;
+}
+.f1 {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+.navi {
+  display: flex;
+  justify-content: space-evenly;
+}
+.electronics img:hover {
+  transform: scale(1.1);
+}
+.list {
+  display: none;
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.689);
+  width: 250px;
+  background-color: white;
+  z-index: 1;
+  text-align: left;
+  padding: 5px 10px;
+}
+.hi:hover .list {
+  display: block;
+}
+.list a:hover {
+  background-color: #f1f1f1;
+  color: blue;
+}
+.hi {
+  overflow: hidden;
+}
+.hi a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
